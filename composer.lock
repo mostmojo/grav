@@ -524,16 +524,16 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "1.8.4",
+            "version": "1.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "902db15a551a4a415e732b622282e21ce1b508b4"
+                "reference": "e4490cabc77465aaee90b20cfc9a770f8c04be6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/902db15a551a4a415e732b622282e21ce1b508b4",
-                "reference": "902db15a551a4a415e732b622282e21ce1b508b4",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/e4490cabc77465aaee90b20cfc9a770f8c04be6b",
+                "reference": "e4490cabc77465aaee90b20cfc9a770f8c04be6b",
                 "shasum": ""
             },
             "require": {
@@ -552,11 +552,6 @@
                 "laminas/laminas-httphandlerrunner": "Emit PSR-7 responses"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.7-dev"
-                }
-            },
             "autoload": {
                 "files": [
                     "src/functions_include.php"
@@ -626,7 +621,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-03-20T13:44:44+00:00"
+            "time": "2023-04-17T16:00:37+00:00"
         },
         {
             "name": "kodus/psr7-server",
@@ -681,6 +676,7 @@
                 "psr-17",
                 "psr-7"
             ],
+            "abandoned": "nyholm/psr7-server",
             "time": "2019-06-17T10:48:13+00:00"
         },
         {
@@ -1157,6 +1153,7 @@
                     "type": "github"
                 }
             ],
+            "abandoned": "rybakit/twig-deferred-extension",
             "time": "2017-03-17T21:39:21+00:00"
         },
         {
@@ -6606,12 +6603,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/victorjonsson/PHP-Markdown-Documentation-Generator.git",
-                "reference": "883492437b1bc21d770c86801d67d735b4a2c481"
+                "reference": "71461bc425114a1116dcc76e43563d27c5594b2d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/victorjonsson/PHP-Markdown-Documentation-Generator/zipball/883492437b1bc21d770c86801d67d735b4a2c481",
-                "reference": "883492437b1bc21d770c86801d67d735b4a2c481",
+                "url": "https://api.github.com/repos/victorjonsson/PHP-Markdown-Documentation-Generator/zipball/71461bc425114a1116dcc76e43563d27c5594b2d",
+                "reference": "71461bc425114a1116dcc76e43563d27c5594b2d",
                 "shasum": ""
             },
             "require": {
@@ -6619,7 +6616,7 @@
                 "symfony/console": ">=2.6"
             },
             "require-dev": {
-                "phpunit/phpunit": "3.7.23"
+                "phpunit/phpunit": "9.5"
             },
             "bin": [
                 "bin/phpdoc-md"
@@ -6642,7 +6639,7 @@
             ],
             "description": "Command line tool for generating markdown-formatted class documentation",
             "homepage": "https://github.com/victorjonsson/PHP-Markdown-Documentation-Generator",
-            "time": "2020-08-24T18:47:02+00:00"
+            "time": "2022-06-27T06:22:24+00:00"
         },
         {
             "name": "webmozart/assert",
